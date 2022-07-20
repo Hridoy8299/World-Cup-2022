@@ -76,11 +76,13 @@ body{
 .middle-banner{
     width: 1352px;
     
+    
 }
 
 .middle{
     width: 1352px;
     display: flex;
+    
     
    
     
@@ -94,6 +96,7 @@ body{
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
+    margin-right: 25px;
 }
 
 .middle-left-inner{
@@ -113,6 +116,10 @@ middle-left-inner h2{
     background-color: red;
 }
 
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 .m-inner-text{
     
     text-align: center;
