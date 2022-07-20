@@ -100,12 +100,20 @@ body{
     
 }
 
+.middle-left-inner a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
 .middle{
     width: 1352px;
     display: flex;
    
     
-    
+
    
     
 }
