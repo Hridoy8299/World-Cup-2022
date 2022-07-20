@@ -82,7 +82,7 @@ body{
     width: 1352px;
     display: flex;
     
-    align-items: center;
+   
     
 }
 
@@ -125,16 +125,44 @@ middle-left-inner h2{
     border-radius: 13px;
 }
 
+
+.middle-right-text{ 
+
+    color: black;
+    font-weight:500;
+    margin-left: 10px;
+    
+}
+
+.fa-clock{
+    color: black;
+    margin-right: 10px;
+}
+
+.comment{
+  margin-left: 20px; 
+}
 .picture{
     margin-bottom: 30px;
 }
-span{
+.transfer{
     margin-top: 40px;
-    /* margin-left: 20px; */
     border: 1px solid black;
     border-radius: 5px;
     padding: 5px;
     margin: 5px;
+    align-items: center;
+}
+
+.feedback{
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    height: 17px;
+    margin-right: 10px;
+    
 }
 
 
