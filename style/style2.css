@@ -1,0 +1,38 @@
+
+.country{
+    border: 3px solid rgb(0, 0, 0);
+    width: 312px;
+    height: 242px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    
+    
+   
+}
+
+#sc-md-banner{
+    display: flex;
+}
+
+.sc-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.time{
+    padding-left: 20px;
+}
+
+
+.c-flex{
+    display: flex;
+}
+
+.verses{
+    margin-left: 20px;
+}
+
+.parti{
+    margin: 20px;
+}
