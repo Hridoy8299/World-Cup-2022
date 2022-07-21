@@ -306,20 +306,22 @@ Footer section End
     grid-template-columns: repeat(1, 1fr);
 }
 
-#fifa-2022{
-    width: 500px;
-}
-.middle-banner{
+.middle{
     margin-top: 600px;
 }
-
 footer{
     width: 580px;
-    height: 800px;
+    height: 1000px;
+}
+
+.footer-last-text{
+    width: 500px;
+    padding-top: 5px;
 }
 .mobile-foot{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    
 
 }
 
