@@ -67,7 +67,17 @@ body{
     display: flex;
     align-items: center;
     color: white;
+    transition: width 5s;
+    
+
       
+}
+
+.watch:hover{
+    width: 250px;
+    background-color: aqua;
+    color: black;
+   
 }
 
 
@@ -270,3 +280,25 @@ footer hr{
 /* *********************
 Footer section End
 *********************** */
+
+
+
+
+@media only screen and (max-width: 800px) {
+.top-section{
+    width: 800px;
+}
+
+    .middle-left{
+        display: flex;
+        
+        flex-direction:row-reverse;
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+    
+}
