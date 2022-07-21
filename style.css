@@ -284,21 +284,49 @@ Footer section End
 
 
 
-@media only screen and (max-width: 800px) {
-.top-section{
-    width: 800px;
+@media only screen and (max-width: 600px) {
+
+.banner{
+    width: 580px;
+    display: flex;
+    flex-direction: column;
 }
 
-    .middle-left{
-        display: flex;
-        
-        flex-direction:row-reverse;
-    }
+.top-section{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
 
-    .grid{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        
-    }
-    
+.middle{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+#fifa-2022{
+    width: 500px;
+}
+.middle-banner{
+    margin-top: 600px;
+}
+
+footer{
+    width: 580px;
+    height: 800px;
+}
+.mobile-foot{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+}
+
+.last-text{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 200px;
+}
+ 
 }
